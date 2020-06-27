@@ -9,8 +9,14 @@
         "128": "assets/icon_48.png",
         "128": "assets/icon_128.png"
     },
+    "background": {
+        "persistent": false,
+        "scripts": ["eventPage.js"]
+    },
     "permissions": [
-        "<all_urls>"
+        "<all_urls>",
+        "contextMenus",
+        "tabs"
     ],
     "content_scripts": [
         {
